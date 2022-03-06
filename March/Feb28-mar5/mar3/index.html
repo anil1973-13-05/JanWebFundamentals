@@ -1,0 +1,25 @@
+<!-- Assignment 1: -> Create a page, have a toggle button. On this button, 
+if I click once, show the popup, inside the popup have the close button. ->
+ I should be able to do it again and again without refresh. -->
+
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
+     
+     <link rel="stylesheet" href="index.css" />
+     <title>Pop-Up</title>
+   </head>
+   <body>
+     <section>
+       <button onclick="openPopUp();" id="open" class="openPopUp">Click me to direct pop-up window</button>
+       <div id="pop-up" class="pop-hide">
+         <h1>Take me to previous page</h1>
+         <button id="close_btn" onclick="closePopup()">Close me then</button>
+       </div>
+     </section>
+     <script src="index.js"></script>
+   </body>
+ </html>
+ 

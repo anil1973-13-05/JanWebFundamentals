@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mar1</title>
+    <style>
+      body {
+        background-image: url("https://images.pexels.com/photos/1034662/pexels-photo-1034662.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+        margin: 0;
+        padding: 0;
+      }
+      div {
+        border-style: solid;
+        border-color: green;
+        border-width: 3px;
+        text-align: center;
+        width: fit-content;
+        margin: auto;
+        margin-top: 10%;
+        background-color: rgb(55, 201, 25);
+      }
+      #confirm{
+          margin-bottom: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h6>password</h6>
+      <input type="password" placeholder="password" id="pass" />
+
+      <h6>confirm password</h6>
+      <input type="password" placeholder="confirm password" id="confirm" />
+      <br />
+      <button onclick="check();">Submit</button>
+      <h1 id = "out"></h1>
+    </div>
+    <script src="a1.js"></script>
+  </body>
+</html>
