@@ -1,0 +1,13 @@
+body{
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+}
+#timer{
+    width:fit-content;
+    border-style: dotted;
+    height: 200px;
+}
